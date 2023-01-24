@@ -1,8 +1,6 @@
-import { join } from "path";
 import { GuDistributionBucketParameter, GuStackProps } from "@guardian/cdk/lib/constructs/core";
 import { GuStack } from "@guardian/cdk/lib/constructs/core";
-import { App, validateNumber } from "aws-cdk-lib";
-import { CfnInclude } from "aws-cdk-lib/cloudformation-include";
+import { App } from "aws-cdk-lib";
 import {GuEc2App} from "@guardian/cdk";
 import { AccessScope } from "@guardian/cdk/lib/constants";
 import { InstanceType, InstanceClass, InstanceSize } from "aws-cdk-lib/aws-ec2";
